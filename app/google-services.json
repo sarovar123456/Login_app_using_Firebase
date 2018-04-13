@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "514734134022",
+    "firebase_url": "https://medauth-ca7a9.firebaseio.com",
+    "project_id": "medauth-ca7a9",
+    "storage_bucket": "medauth-ca7a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514734134022:android:103124771d486c62",
+        "android_client_info": {
+          "package_name": "com.example.sarovar.medauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514734134022-uc4pobc8it20eluft0mg6is8rp72bf67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarovar.medauth",
+            "certificate_hash": "e3aeeb707ca88389606fee679d89f9f2c339c30e"
+          }
+        },
+        {
+          "client_id": "514734134022-mvmsiu2v0c5hnpa15t11311ilsc4664p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-L9AtqNJ07ONHq4NX_tR-kztIwG5_Tbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514734134022-mvmsiu2v0c5hnpa15t11311ilsc4664p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

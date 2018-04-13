@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sarovar.medauth.InfoActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/editTextSname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextSid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextSname"
+            android:layout_alignStart="@+id/editTextSname"
+            android:layout_below="@+id/editTextSname"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Regno or Id"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editTextSid"
+            android:layout_alignRight="@+id/editTextSid"
+            android:layout_below="@+id/editTextSid"
+            android:layout_marginTop="17dp"
+            android:ems="10"
+            android:hint="Registered Email "
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextSphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editTextEmail"
+            android:layout_alignRight="@+id/editTextEmail"
+            android:layout_below="@+id/editTextEmail"
+            android:layout_marginTop="23dp"
+            android:ems="10"
+            android:hint="Registered Phone"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextAPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editTextSphone"
+            android:layout_alignRight="@+id/editTextSphone"
+            android:layout_below="@+id/editTextSphone"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:hint="Alternate Phone"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextAPhone"
+            android:layout_alignStart="@+id/editTextAPhone"
+            android:layout_below="@+id/editTextAPhone"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="19dp"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editTextAPhone"
+            android:layout_alignRight="@+id/editTextAPhone"
+            android:layout_alignTop="@+id/buttonSave"
+            android:text="Back" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
